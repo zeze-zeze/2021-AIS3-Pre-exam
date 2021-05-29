@@ -5,4 +5,4 @@
 * 分數: 2983
 * 名次: 8
 
-![img](Scoreboard.PNF)
+![img](Scoreboard.PNG)
