@@ -1,0 +1,346 @@
+    0: c    GLOBAL     '__builtin__ input'
+   19: (    MARK
+   20: S        STRING     'FLAG: '
+   30: t        TUPLE      (MARK at 19)
+   31: R    REDUCE
+   32: p    PUT        0
+   35: 0    POP
+   36: c    GLOBAL     '__builtin__ getattr'
+   57: p    PUT        1
+   60: 0    POP
+   61: g    GET        1
+   64: (    MARK
+   65: (        MARK
+   66: c            GLOBAL     '__builtin__ exit'
+   84: c            GLOBAL     '__builtin__ str'
+  101: l            LIST       (MARK at 65)
+  102: S        STRING     '__getitem__'
+  117: t        TUPLE      (MARK at 64)
+  118: R    REDUCE
+  119: p    PUT        2
+  122: 0    POP
+  123: g    GET        2
+  126: (    MARK
+  127: g        GET        1
+  130: (        MARK
+  131: g            GET        0
+  134: S            STRING     'startswith'
+  148: t            TUPLE      (MARK at 130)
+  149: R        REDUCE
+  150: (        MARK
+  151: S            STRING     'AIS3{'
+  160: t            TUPLE      (MARK at 150)
+  161: R        REDUCE
+  162: t        TUPLE      (MARK at 126)
+  163: R    REDUCE
+  164: (    MARK
+  165: t        TUPLE      (MARK at 164)
+  166: R    REDUCE
+  167: g    GET        2
+  170: (    MARK
+  171: g        GET        1
+  174: (        MARK
+  175: g            GET        0
+  178: S            STRING     'endswith'
+  190: t            TUPLE      (MARK at 174)
+  191: R        REDUCE
+  192: (        MARK
+  193: S            STRING     '}'
+  198: t            TUPLE      (MARK at 192)
+  199: R        REDUCE
+  200: t        TUPLE      (MARK at 170)
+  201: R    REDUCE
+  202: (    MARK
+  203: t        TUPLE      (MARK at 202)
+  204: R    REDUCE
+  205: g    GET        2
+  208: (    MARK
+  209: g        GET        1
+  212: (        MARK
+  213: g            GET        1
+  216: (            MARK
+  217: g                GET        0
+  220: S                STRING     '__getitem__'
+  235: t                TUPLE      (MARK at 216)
+  236: R            REDUCE
+  237: (            MARK
+  238: I                INT        6
+  241: t                TUPLE      (MARK at 237)
+  242: R            REDUCE
+  243: S            STRING     '__eq__'
+  253: t            TUPLE      (MARK at 212)
+  254: R        REDUCE
+  255: (        MARK
+  256: V            UNICODE    'A'
+  259: t            TUPLE      (MARK at 255)
+  260: R        REDUCE
+  261: t        TUPLE      (MARK at 208)
+  262: R    REDUCE
+  263: (    MARK
+  264: t        TUPLE      (MARK at 263)
+  265: R    REDUCE
+  266: g    GET        2
+  269: (    MARK
+  270: g        GET        1
+  273: (        MARK
+  274: g            GET        1
+  277: (            MARK
+  278: g                GET        0
+  281: S                STRING     '__getitem__'
+  296: t                TUPLE      (MARK at 277)
+  297: R            REDUCE
+  298: (            MARK
+  299: I                INT        9
+  302: t                TUPLE      (MARK at 298)
+  303: R            REDUCE
+  304: S            STRING     '__eq__'
+  314: t            TUPLE      (MARK at 273)
+  315: R        REDUCE
+  316: (        MARK
+  317: V            UNICODE    'j'
+  320: t            TUPLE      (MARK at 316)
+  321: R        REDUCE
+  322: t        TUPLE      (MARK at 269)
+  323: R    REDUCE
+  324: (    MARK
+  325: t        TUPLE      (MARK at 324)
+  326: R    REDUCE
+  327: g    GET        1
+  330: (    MARK
+  331: g        GET        0
+  334: S        STRING     '__getitem__'
+  349: t        TUPLE      (MARK at 330)
+  350: R    REDUCE
+  351: (    MARK
+  352: I        INT        9
+  355: t        TUPLE      (MARK at 351)
+  356: R    REDUCE
+  357: p    PUT        3
+  360: 0    POP
+  361: g    GET        2
+  364: (    MARK
+  365: g        GET        1
+  368: (        MARK
+  369: g            GET        1
+  372: (            MARK
+  373: g                GET        0
+  376: S                STRING     '__getitem__'
+  391: t                TUPLE      (MARK at 372)
+  392: R            REDUCE
+  393: (            MARK
+  394: I                INT        11
+  398: t                TUPLE      (MARK at 393)
+  399: R            REDUCE
+  400: S            STRING     '__eq__'
+  410: t            TUPLE      (MARK at 368)
+  411: R        REDUCE
+  412: (        MARK
+  413: V            UNICODE    'p'
+  416: t            TUPLE      (MARK at 412)
+  417: R        REDUCE
+  418: t        TUPLE      (MARK at 364)
+  419: R    REDUCE
+  420: (    MARK
+  421: t        TUPLE      (MARK at 420)
+  422: R    REDUCE
+  423: g    GET        2
+  426: (    MARK
+  427: g        GET        1
+  430: (        MARK
+  431: g            GET        1
+  434: (            MARK
+  435: g                GET        0
+  438: S                STRING     '__getitem__'
+  453: t                TUPLE      (MARK at 434)
+  454: R            REDUCE
+  455: (            MARK
+  456: I                INT        14
+  460: t                TUPLE      (MARK at 455)
+  461: R            REDUCE
+  462: S            STRING     '__eq__'
+  472: t            TUPLE      (MARK at 430)
+  473: R        REDUCE
+  474: (        MARK
+  475: g            GET        3
+  478: t            TUPLE      (MARK at 474)
+  479: R        REDUCE
+  480: t        TUPLE      (MARK at 426)
+  481: R    REDUCE
+  482: (    MARK
+  483: t        TUPLE      (MARK at 482)
+  484: R    REDUCE
+  485: g    GET        1
+  488: (    MARK
+  489: g        GET        0
+  492: S        STRING     '__getitem__'
+  507: t        TUPLE      (MARK at 488)
+  508: R    REDUCE
+  509: (    MARK
+  510: I        INT        1
+  513: t        TUPLE      (MARK at 509)
+  514: R    REDUCE
+  515: p    PUT        4
+  518: 0    POP
+  519: g    GET        2
+  522: (    MARK
+  523: g        GET        1
+  526: (        MARK
+  527: g            GET        1
+  530: (            MARK
+  531: g                GET        0
+  534: S                STRING     '__getitem__'
+  549: t                TUPLE      (MARK at 530)
+  550: R            REDUCE
+  551: (            MARK
+  552: I                INT        5
+  555: t                TUPLE      (MARK at 551)
+  556: R            REDUCE
+  557: S            STRING     '__eq__'
+  567: t            TUPLE      (MARK at 526)
+  568: R        REDUCE
+  569: (        MARK
+  570: V            UNICODE    'd'
+  573: t            TUPLE      (MARK at 569)
+  574: R        REDUCE
+  575: t        TUPLE      (MARK at 522)
+  576: R    REDUCE
+  577: (    MARK
+  578: t        TUPLE      (MARK at 577)
+  579: R    REDUCE
+  580: g    GET        2
+  583: (    MARK
+  584: g        GET        1
+  587: (        MARK
+  588: g            GET        1
+  591: (            MARK
+  592: g                GET        0
+  595: S                STRING     '__getitem__'
+  610: t                TUPLE      (MARK at 591)
+  611: R            REDUCE
+  612: (            MARK
+  613: I                INT        10
+  617: t                TUPLE      (MARK at 612)
+  618: R            REDUCE
+  619: S            STRING     '__eq__'
+  629: t            TUPLE      (MARK at 587)
+  630: R        REDUCE
+  631: (        MARK
+  632: V            UNICODE    'z'
+  635: t            TUPLE      (MARK at 631)
+  636: R        REDUCE
+  637: t        TUPLE      (MARK at 583)
+  638: R    REDUCE
+  639: (    MARK
+  640: t        TUPLE      (MARK at 639)
+  641: R    REDUCE
+  642: g    GET        2
+  645: (    MARK
+  646: g        GET        1
+  649: (        MARK
+  650: g            GET        1
+  653: (            MARK
+  654: g                GET        0
+  657: S                STRING     '__getitem__'
+  672: t                TUPLE      (MARK at 653)
+  673: R            REDUCE
+  674: (            MARK
+  675: I                INT        12
+  679: t                TUPLE      (MARK at 674)
+  680: R            REDUCE
+  681: S            STRING     '__eq__'
+  691: t            TUPLE      (MARK at 649)
+  692: R        REDUCE
+  693: (        MARK
+  694: V            UNICODE    'h'
+  697: t            TUPLE      (MARK at 693)
+  698: R        REDUCE
+  699: t        TUPLE      (MARK at 645)
+  700: R    REDUCE
+  701: (    MARK
+  702: t        TUPLE      (MARK at 701)
+  703: R    REDUCE
+  704: g    GET        2
+  707: (    MARK
+  708: g        GET        1
+  711: (        MARK
+  712: g            GET        4
+  715: S            STRING     '__eq__'
+  725: t            TUPLE      (MARK at 711)
+  726: R        REDUCE
+  727: (        MARK
+  728: g            GET        1
+  731: (            MARK
+  732: g                GET        0
+  735: S                STRING     '__getitem__'
+  750: t                TUPLE      (MARK at 731)
+  751: R            REDUCE
+  752: (            MARK
+  753: I                INT        13
+  757: t                TUPLE      (MARK at 752)
+  758: R            REDUCE
+  759: t            TUPLE      (MARK at 727)
+  760: R        REDUCE
+  761: t        TUPLE      (MARK at 707)
+  762: R    REDUCE
+  763: (    MARK
+  764: t        TUPLE      (MARK at 763)
+  765: R    REDUCE
+  766: g    GET        2
+  769: (    MARK
+  770: g        GET        1
+  773: (        MARK
+  774: g            GET        1
+  777: (            MARK
+  778: g                GET        0
+  781: S                STRING     '__getitem__'
+  796: t                TUPLE      (MARK at 777)
+  797: R            REDUCE
+  798: (            MARK
+  799: I                INT        8
+  802: t                TUPLE      (MARK at 798)
+  803: R            REDUCE
+  804: S            STRING     '__eq__'
+  814: t            TUPLE      (MARK at 773)
+  815: R        REDUCE
+  816: (        MARK
+  817: V            UNICODE    'w'
+  820: t            TUPLE      (MARK at 816)
+  821: R        REDUCE
+  822: t        TUPLE      (MARK at 769)
+  823: R    REDUCE
+  824: (    MARK
+  825: t        TUPLE      (MARK at 824)
+  826: R    REDUCE
+  827: g    GET        2
+  830: (    MARK
+  831: g        GET        1
+  834: (        MARK
+  835: g            GET        1
+  838: (            MARK
+  839: g                GET        0
+  842: S                STRING     '__getitem__'
+  857: t                TUPLE      (MARK at 838)
+  858: R            REDUCE
+  859: (            MARK
+  860: I                INT        7
+  863: t                TUPLE      (MARK at 859)
+  864: R            REDUCE
+  865: S            STRING     '__eq__'
+  875: t            TUPLE      (MARK at 834)
+  876: R        REDUCE
+  877: (        MARK
+  878: V            UNICODE    'm'
+  881: t            TUPLE      (MARK at 877)
+  882: R        REDUCE
+  883: t        TUPLE      (MARK at 830)
+  884: R    REDUCE
+  885: (    MARK
+  886: t        TUPLE      (MARK at 885)
+  887: R    REDUCE
+  888: c    GLOBAL     '__builtin__ print'
+  907: (    MARK
+  908: S        STRING     'Correct!'
+  920: t        TUPLE      (MARK at 907)
+  921: R    REDUCE
+  922: .    STOP
+highest protocol among opcodes = 0

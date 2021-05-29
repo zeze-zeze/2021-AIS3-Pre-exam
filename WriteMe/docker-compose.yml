@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  gotplt:
+    build: ./
+    volumes:
+      - ./share:/home/gotplt:ro
+      - ./xinetd:/etc/xinetd.d/gotplt:ro
+    ports:
+      - "10102:10101"

